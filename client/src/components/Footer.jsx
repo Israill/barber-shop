@@ -18,7 +18,7 @@ const Footer = () => {
               />
             </svg>
 
-            <span className="brand-logo_name">barbercrop</span>
+            <span className="brand-logo_name">Eddy cuts</span>
           </a>
         </div>
         <div className="wrapper d-flex flex-column flex-md-row flex-grow-1 justify-content-lg-between">
@@ -28,15 +28,15 @@ const Footer = () => {
                 <i className="icon-phone"></i>
               </span>
               <a className="link" href="tel:+1234567890">
-                +1 234 567 890
+              +7 929 609 14 15
               </a>
             </span>
             <p className="footer_contacts-address">
-              <span className="linebreak">3891 Ranchview Dr. Richardson,</span>
-              <span className="linebreak">California 62639</span>
+              <span className="linebreak">просп. Кадырова 34,</span>
+              <span className="linebreak">Грозный</span>
             </p>
             <a className="footer_contacts-mail" href="mailto:example@domain.com">
-              barbercrop@example.com
+              eduardshaipov@gmail.com
             </a>
             <ul className="footer_contacts-socials d-flex align-items-center">
               <li className="list-item">
@@ -57,10 +57,9 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer_newsletter footer_block">
-            <h3 className="footer_newsletter-header">Subscribe our newsletter</h3>
+            <h3 className="footer_newsletter-header">Подпишись на рассылку</h3>
             <p className="footer_newsletter-text text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus interdum volutpat urna
-              neque varius congue.
+            Eddy cuts — намного больше, чем просто мужская парикмахерская, это даже больше, чем мужской клуб.
             </p>
             <form
               className="footer_newsletter-form d-flex flex-wrap flex-sm-nowrap"
@@ -72,18 +71,18 @@ const Footer = () => {
                 className="field required"
                 data-type="email"
                 type="text"
-                placeholder="Your email address"
+                placeholder="Ваш e-mail"
               />
               <button className="btn theme-element" type="submit">
-                Subscribe
+                Подписаться
               </button>
             </form>
           </div>
         </div>
         <div className="offset col-lg-3 d-none d-lg-flex"></div>
         <p className="footer_copyright flex-grow-1">
-          <span className="linebreak">Merkulove &copy; Barbercrop Template</span>
-          <span className="linebreak">All rights reserved 2021</span>
+          <span className="linebreak">intocode &copy; Eddy cuts website</span>
+          <span className="linebreak">All rights reserved 2022</span>
         </p>
       </div>
     </footer>

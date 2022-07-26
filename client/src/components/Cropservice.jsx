@@ -11,11 +11,11 @@ const Services = () => {
         "
       >
         <h2 className="services_header" data-aos="fade-right">
-          What we provide
+          Мы предлагаем:
         </h2>
         <div className="services_btn wrapper" data-aos="fade-left">
           <a className="btn theme-element" href="services.html">
-            View services
+            Перейти к услугам
           </a>
         </div>
         <ul className="services_list flex-grow-1 d-md-flex flex-wrap align-items-xxl-start">
@@ -49,14 +49,13 @@ const Services = () => {
                 </svg>
               </span>
               <div className="main d-flex flex-column justify-content-between">
-                <h3 className="title">Haircut</h3>
+                <h3 className="title">Стрижка</h3>
                 <p className="description">
-                  A dui aliquam ultrices eros lorem nibh vivamus. Quis aliquam duis pharetra
-                  faucibus ultrices volutpat quisque.
+                Почему мы любим классику? Потому что она всегда в моде, подходит каждому мужчине и уместна к любому случаю, от приема у английской королевы до визита к стоматологу. 
                 </p>
                 <div className="wrapper">
                   <a className="link link--underline highlight" href="#">
-                    from $30
+                    от 1000 ₽
                   </a>
                 </div>
               </div>
@@ -101,14 +100,13 @@ const Services = () => {
                 </svg>
               </span>
               <div className="main d-flex flex-column justify-content-between">
-                <h3 className="title">Moustache</h3>
+                <h3 className="title">Опасная бритва</h3>
                 <p className="description">
-                  Viverra duis ut orci mi id. Eget ultricies facilisi elementum nec vel a gravida
-                  facilisis in. Tellus felis sapien adipiscing.
+                Если в последний раз вы видели лезвие для бритья в руках деда и всю свою жизнь брились обычным станком, мы настоятельно рекомендуем хотя бы раз попробовать опасное бритьё в Eddy cuts. Эта услуга представляет собой настоящую спа-процедуру.
                 </p>
                 <div className="wrapper">
                   <a className="link link--underline highlight" href="#">
-                    from $30
+                  от 500 ₽
                   </a>
                 </div>
               </div>
@@ -157,14 +155,13 @@ const Services = () => {
                 </svg>
               </span>
               <div className="main d-flex flex-column justify-content-between">
-                <h3 className="title">Shave</h3>
+                <h3 className="title">Стрижка машинкой</h3>
                 <p className="description">
-                  Lorem velit parturient consectetur cursus tincidunt tristique pretium volutpat
-                  urna. Vitae scelerisque quam eget.
+                Стрижка под машинку идёт не всем. Если вы один из таких счастливчиков — поздравляем. А, может, ваш образ жизни не оставляет времени на то, чтобы следить за укладкой волос, или вы просто думаете, что это не мужское дело. 
                 </p>
                 <div className="wrapper">
                   <a className="link link--underline highlight" href="#">
-                    from $30
+                  от 500 ₽
                   </a>
                 </div>
               </div>
@@ -201,14 +198,13 @@ const Services = () => {
                 </svg>
               </span>
               <div className="main d-flex flex-column justify-content-between">
-                <h3 className="title">Stacking</h3>
+                <h3 className="title">Укладка</h3>
                 <p className="description">
-                  Dapibus ac mattis semper hendrerit eu dolor aliquam. Vitae sem orci non diam.
-                  Venenatis augue arcu mauris id eros.
+                С вами такое бывало? Выходите из барбершопа с идеально уложенными волосами, собираете комплименты, но на следующее утро все меняется (и не всегда в лучшую сторону). Дело в том, что любая мужская стрижка держится на хорошем укладочном средстве.
                 </p>
                 <div className="wrapper">
                   <a className="link link--underline highlight" href="#">
-                    from $30
+                  от 300 ₽
                   </a>
                 </div>
               </div>
@@ -245,14 +241,13 @@ const Services = () => {
                 </svg>
               </span>
               <div className="main d-flex flex-column justify-content-between">
-                <h3 className="title">Beard trim</h3>
+                <h3 className="title">Борода и усы</h3>
                 <p className="description">
-                  Interdum tincidunt condimentum vestibulum feugiat arcu, in. Maecenas sit sem erat
-                  tellus pellentesque aliquet.
+                Возможно, вы хотите попробовать моделирование бороды — с четкими контурами и окантовкой. Или предпочитаете естественную форму бороды. Вариантов здесь масса, и разобраться в них помогут наши мастера. 
                 </p>
                 <div className="wrapper">
                   <a className="link link--underline highlight" href="#">
-                    from $30
+                  от 400 ₽
                   </a>
                 </div>
               </div>
@@ -289,14 +284,13 @@ const Services = () => {
                 </svg>
               </span>
               <div className="main d-flex flex-column justify-content-between">
-                <h3 className="title">Hair dyeing</h3>
+                <h3 className="title">Подарочный сертификат</h3>
                 <p className="description">
-                  Congue pulvinar morbi pharetra tincidunt vel tincidunt. Amet, morbi neque tellus
-                  vivamus venenatis diam nisl.
+              Этот подарок точно пригодится: все мужчины ходят в парикмахерские. А если не ходят, то хотя бы бреются — и с удовольствием попробуют опасное бритье в настоящем барбершопе. 
                 </p>
                 <div className="wrapper">
                   <a className="link link--underline highlight" href="#">
-                    from $30
+                  от 2000 ₽
                   </a>
                 </div>
               </div>
