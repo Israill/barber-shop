@@ -21,17 +21,17 @@ const Gallery = () => {
               <ul className="gallery_content-filters d-flex flex-wrap">
                 <li className="list-item">
                   <a data-target="all" className="gallery_content-filters_filter current" href="#">
-                  Все
+                    Все
                   </a>
                 </li>
                 <li className="list-item">
                   <a data-target="haircut" className="gallery_content-filters_filter" href="#">
-                  Стрижка волос
+                    Стрижка волос
                   </a>
                 </li>
                 <li className="list-item">
                   <a data-target="beard" className="gallery_content-filters_filter" href="#">
-                  Борода и усы
+                    Борода и усы
                   </a>
                 </li>
               </ul>
@@ -41,7 +41,11 @@ const Gallery = () => {
                   data-groups='["haircut"]'
                   data-order="1"
                 >
-                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
+                  <a
+                    className="aspect"
+                    href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                    data-caption="Image caption"
+                  >
                     <div className="aspect_inner">
                       <picture>
                         <source
@@ -65,7 +69,11 @@ const Gallery = () => {
                   data-groups='["beard"]'
                   data-order="2"
                 >
-                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
+                  <a
+                    className="aspect"
+                    href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                    data-caption="Image caption"
+                  >
                     <div className="aspect_inner">
                       <picture>
                         <source
@@ -89,7 +97,11 @@ const Gallery = () => {
                   data-groups='["beard", "haircut"]'
                   data-order="3"
                 >
-                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
+                  <a
+                    className="aspect"
+                    href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                    data-caption="Image caption"
+                  >
                     <div className="aspect_inner">
                       <picture>
                         <source
@@ -113,7 +125,11 @@ const Gallery = () => {
                   data-groups='["beard", "haircut"]'
                   data-order="4"
                 >
-                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
+                  <a
+                    className="aspect"
+                    href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                    data-caption="Image caption"
+                  >
                     <div className="aspect_inner">
                       <picture>
                         <source
@@ -137,7 +153,11 @@ const Gallery = () => {
                   data-groups='["haircut"]'
                   data-order="5"
                 >
-                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
+                  <a
+                    className="aspect"
+                    href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                    data-caption="Image caption"
+                  >
                     <div className="aspect_inner">
                       <picture>
                         <source
@@ -161,7 +181,11 @@ const Gallery = () => {
                   data-groups='["haircut"]'
                   data-order="5"
                 >
-                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
+                  <a
+                    className="aspect"
+                    href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                    data-caption="Image caption"
+                  >
                     <div className="aspect_inner">
                       <picture>
                         <source
@@ -181,34 +205,34 @@ const Gallery = () => {
                 </figure>
               </div>
             </div>
-            </div>
+          </div>
         </section>
       </main>
-      <div className="pagination gallery_pagination d-flex justify-content-center align-items-center !p-16">
-              <a className="pagination_control btn btn--revert theme-element" href="#">
-                Обратно
-              </a>
-              <ul className="pagination_pages d-flex">
-                <li className="pagination_pages-page">
-                  <a className="theme-element btn btn--revert" href="#">
-                    1
-                  </a>
-                </li>
-                <li className="pagination_pages-page">
-                  <a className="theme-element btn btn--revert current" href="#">
-                    2
-                  </a>
-                </li>
-                <li className="pagination_pages-page">
-                  <a className="theme-element btn btn--revert" href="#">
-                    3
-                  </a>
-                </li>
-              </ul>
-              <a className="pagination_control btn btn--revert theme-element" href="#">
-              Следующий
-              </a>
-            </div>
+      <div className="pagination gallery_pagination d-flex justify-content-center align-items-center !p-16 w-full">
+        <a className="pagination_control btn btn--revert theme-element" href="#">
+          Обратно
+        </a>
+        <ul className="pagination_pages d-flex">
+          <li className="pagination_pages-page">
+            <a className="theme-element btn btn--revert" href="#">
+              1
+            </a>
+          </li>
+          <li className="pagination_pages-page">
+            <a className="theme-element btn btn--revert current" href="#">
+              2
+            </a>
+          </li>
+          <li className="pagination_pages-page">
+            <a className="theme-element btn btn--revert" href="#">
+              3
+            </a>
+          </li>
+        </ul>
+        <a className="pagination_control btn btn--revert theme-element" href="#">
+          Следующий
+        </a>
+      </div>
     </>
   );
 };
