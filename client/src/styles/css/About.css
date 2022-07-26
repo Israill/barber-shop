@@ -208,7 +208,8 @@
   filter: grayscale(1);
   -webkit-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out
+  transition: .5s ease-in-out;
+  height: 100%;
 }
 
 .gallery_list-item_img:hover {

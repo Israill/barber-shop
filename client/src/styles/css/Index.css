@@ -1,5 +1,5 @@
 @font-face {
-    font-family:icomoon;src:url(../../public/fonts/icomoon.woff) format('woff'),url(../../public/fonts/icomoon.woff2) format('woff2');font-weight:400;font-style:normal;font-display:block
+    font-family:icomoon;src:url(/fonts/icomoon.woff) format('woff'),url(/fonts/icomoon.woff2) format('woff2');font-weight:400;font-style:normal;font-display:block
 }
 
 .icon-close:before {
@@ -6743,7 +6743,7 @@ img {
 
 .schedule {
     color: #fff;
-    background: url(../../public/img/placeholder.jpg) center/cover no-repeat;
+    background: url(/img/placeholder.jpg) center/cover no-repeat;
     position: relative
 }
 
@@ -7201,7 +7201,7 @@ img {
 }
 
 .promo_popup {
-    background: url(../../public/img/placeholder.jpg) center/cover no-repeat,rgba(32,32,32,.7);
+    background: url(/img/placeholder.jpg) center/cover no-repeat,rgba(32,32,32,.7);
     background-blend-mode: overlay;
     padding: 30px;
     max-width: 650px;

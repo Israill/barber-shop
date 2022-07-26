@@ -13,7 +13,6 @@ import '../styles/css/Post.css';
 import '../styles/css/Preload.css';
 import '../styles/css/Services.css';
 
-
 const App = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>

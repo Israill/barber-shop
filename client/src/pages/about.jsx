@@ -1,5 +1,7 @@
 import Cropservice from '@/components/Cropservice';
 import Start from '@/components/Start';
+import Stats from '@/components/Stats';
+import Image from 'next/image';
 
 const About = () => {
   return (
@@ -9,8 +11,8 @@ const About = () => {
           <div className="container d-xl-flex flex-wrap">
             <div className="about_header section_header col-xl-6">
               <h2 className="about_header-title section_header-title" data-aos="fade-right">
-                professional barbershop
-                <span className="linebreak">for men only</span>
+                профессиональный барбершоп
+                <span className="linebreak">для мужчин</span>
               </h2>
               <span
                 className="about_header-subtitle section_header-subtitle"
@@ -18,24 +20,24 @@ const About = () => {
                 data-aos-delay="50"
                 data-aos-once="false"
               >
-                About us
+                О нас
               </span>
             </div>
             <div className="about_info col-xl-6 d-sm-flex">
               <div className="about_info-fact">
                 <h3 className="about_info-fact_title" data-aos="fade-up">
-                  Since 2015
+                  Работаем с 2015
                 </h3>
                 <p className="about_info-fact_description" data-aos="fade-up">
-                  Dui cursus neque et at ipsum. Cursus urna fringilla nisl enim duis cras odio.
+                  За этот период мы успели обслужить бесчисленное множество клиентов.
                 </p>
               </div>
               <div className="about_info-fact">
                 <h3 className="about_info-fact_title" data-aos="fade-up" data-aos-delay="50">
-                  1000+ clients
+                  1000+ клиентов
                 </h3>
                 <p className="about_info-fact_description" data-aos="fade-up" data-aos-delay="50">
-                  Metus varius vitae habitant lorem. Porta scelerisque facilisi.
+                  Именитые спортсмены и известные личности доверяют нам.
                 </p>
               </div>
             </div>
@@ -47,8 +49,8 @@ const About = () => {
             >
               <picture>
                 <source
-                  data-srcset="img/placeholder.jpg"
-                  srcSet="img/placeholder.jpg"
+                  data-srcset="https://html.merku.love/barbercrop/img/about/about.webp"
+                  srcSet="https://html.merku.love/barbercrop/img/about/about.webp"
                   type="image/webp"
                 />
                 <img
@@ -61,14 +63,12 @@ const About = () => {
             </div>
             <div className="about_text d-md-flex justify-content-between">
               <p className="about_text-block text">
-                Et tellus rhoncus urna a. Tempus felis, sociis lorem aliquet nibh pellentesque.
-                Vitae nunc, dolor, blandit eget eleifend etiam id. Amet arcu lobortis sed pulvinar
-                cursus pretium sit pretium.
+                Старшие мастера Eddy Cuts — это звезды парикмахерского искусства. С их многолетним
+                опытом они могли бы работать с закрытыми глазами.
               </p>
               <p className="about_text-block text">
-                Mollis rhoncus sem nisl dictumst mauris. At faucibus arcu, scelerisque ultricies
-                accumsan arcu, molestie. Sed ac elit varius enim venenatis ac, id. Ullamcorper non
-                interdum posuere sit nibh id metus.
+                Записавшись к старшему мастеру, вы можете быть уверены, что окажетесь не просто в
+                хороших руках — в лучших.
               </p>
             </div>
           </div>
@@ -76,28 +76,24 @@ const About = () => {
 
         <section className="team section--nopt">
           <div className="container">
-            <h2 className="team_header">Meet the masters</h2>
+            <h2 className="team_header">Знакомьтесь с нашими мастерами:</h2>
             <ul className="team_list d-md-flex flex-wrap">
               <li className="team_list-item col-md-6 col-xl-4">
                 <div className="team_list-item_wrapper d-flex flex-column" data-order="1">
                   <div className="media" data-aos="zoom-in" data-aos-duration="650">
                     <picture>
-                      <source
-                        data-srcset="img/placeholder.jpg"
-                        srcSet="img/placeholder.jpg"
-                        type="image/webp"
-                      />
+                      <source data-srcset="img/eddy.jpg" srcSet="img/eddy.jpg" type="image/webp" />
                       <img
                         className="lazy media_img"
                         data-src="img/placeholder.jpg"
                         src="img/placeholder.jpg"
-                        alt="Ralph Edwards"
+                        alt="Eduard Shaipov"
                       />
                     </picture>
                   </div>
                   <div className="info d-flex flex-column justify-content-between">
                     <h3 className="name" data-aos="fade-down">
-                      Ralph Edwards
+                      Эдуард Шаипов
                     </h3>
                     <span className="speciality highlight" data-aos="fade-up">
                       Top barber
@@ -120,25 +116,21 @@ const About = () => {
                     data-aos-duration="650"
                   >
                     <picture>
-                      <source
-                        data-srcset="img/placeholder.jpg"
-                        srcSet="img/placeholder.jpg"
-                        type="image/webp"
-                      />
+                      <source data-srcset="img/eddy.jpg" srcSet="img/eddy.jpg" type="image/webp" />
                       <img
                         className="lazy media_img"
                         data-src="img/placeholder.jpg"
                         src="img/placeholder.jpg"
-                        alt="Marvin McKinney"
+                        alt="Хайрул Джамал"
                       />
                     </picture>
                   </div>
                   <div className="info d-flex flex-column justify-content-between">
                     <h3 className="name" data-aos="fade-down">
-                      Marvin McKinney
+                      Хайрул Джамал
                     </h3>
                     <span className="speciality highlight" data-aos="fade-up">
-                      Hair Stylist
+                      Barber
                     </span>
                   </div>
                 </div>
@@ -152,22 +144,18 @@ const About = () => {
                     data-aos-duration="650"
                   >
                     <picture>
-                      <source
-                        data-srcset="img/placeholder.jpg"
-                        srcSet="img/placeholder.jpg"
-                        type="image/webp"
-                      />
+                      <source data-srcset="img/eddy.jpg" srcSet="img/eddy.jpg" type="image/webp" />
                       <img
                         className="lazy media_img"
                         data-src="img/placeholder.jpg"
                         src="img/placeholder.jpg"
-                        alt="Albert Flores"
+                        alt="Хамзат"
                       />
                     </picture>
                   </div>
                   <div className="info d-flex flex-column justify-content-between">
                     <h3 className="name" data-aos="fade-down">
-                      Albert Flores
+                      Хамзат Харрис
                     </h3>
                     <span className="speciality highlight" data-aos="fade-up">
                       barber
@@ -184,7 +172,7 @@ const About = () => {
             <div className="container">
               <div className="gallery_header section_header">
                 <h2 className="gallery_header-title section_header-title" data-aos="fade-right">
-                  Our works
+                  Наши работы
                 </h2>
                 <span
                   className="gallery_header-subtitle section_header-subtitle"
@@ -192,7 +180,7 @@ const About = () => {
                   data-aos-delay="50"
                   data-aos-once="false"
                 >
-                  Our best works
+                  Наши работы
                 </span>
               </div>
             </div>
@@ -205,8 +193,8 @@ const About = () => {
                 >
                   <picture>
                     <source
-                      data-srcset="img/placeholder.jpg"
-                      srcSet="img/placeholder.jpg"
+                      data-srcset="img/works1.jpg"
+                      srcSet="img/works1.jpg"
                       type="image/webp"
                     />
                     <img
@@ -226,8 +214,8 @@ const About = () => {
                 >
                   <picture>
                     <source
-                      data-srcset="img/placeholder.jpg"
-                      srcSet="img/placeholder.jpg"
+                      data-srcset="img/works2.jpg"
+                      srcSet="img/works2.jpg"
                       type="image/webp"
                     />
                     <img
@@ -247,8 +235,8 @@ const About = () => {
                 >
                   <picture>
                     <source
-                      data-srcset="img/placeholder.jpg"
-                      srcSet="img/placeholder.jpg"
+                      data-srcset="img/works3.jpg"
+                      srcSet="img/works3.jpg"
                       type="image/webp"
                     />
                     <img
@@ -268,8 +256,8 @@ const About = () => {
                 >
                   <picture>
                     <source
-                      data-srcset="img/placeholder.jpg"
-                      srcSet="img/placeholder.jpg"
+                      data-srcset="img/works4.jpg"
+                      srcSet="img/works4.jpg"
                       type="image/webp"
                     />
                     <img
@@ -289,7 +277,7 @@ const About = () => {
 
         <section className="reviews section--nopt">
           <div className="container d-flex flex-wrap justify-content-between align-items-center">
-            <h2 className="reviews_header">What our clients say about us</h2>
+            <h2 className="reviews_header">Что о нас говорят клиенты?</h2>
             <div className="reviews_slider swiper">
               <div className="reviews_slider-wrapper swiper-wrapper">
                 <div className="reviews_slider-slide swiper-slide">
@@ -319,11 +307,13 @@ const About = () => {
                     </span>
                     <div className="main d-flex flex-column justify-content-between">
                       <p className="main_review">
-                        Nullam nec cursus morbi quam. Malesuada volutpat nunc neque mauris est,
-                        risus sit sed cursus. Nibh praesent felis, vitae tristique aliquam tellus
-                        etiam amet. Dignissim vitae sagittis magna tempor.
+                        Очень приятно рекомендовать. Стригусь здесь не первый год. Удобная локация в
+                        центре. Культурно, атмосферно, спокойный и вежливый персонал. Приятная
+                        эстетика. Но хожу сюда не за этим. Причина - опыт, мастерство и
+                        художественный вкус мастера Эдуарда. Благодаря Эдуарду - порядок не только в
+                        голове, но и на голове
                       </p>
-                      <span className="main_author highlight">Floyd Miles</span>
+                      <span className="main_author highlight">Магомед М.</span>
                     </div>
                   </div>
                 </div>
@@ -354,12 +344,13 @@ const About = () => {
                     </span>
                     <div className="main">
                       <p className="main_review">
-                        Egestas tincidunt arcu pellentesque tortor vulputate. Diam nulla
-                        sollicitudin diam, rhoncus cursus faucibus mus ornare. Ut tincidunt ut eu
-                        amet sit ut magna. Tincidunt dignissim pharetra, sit ut dictum volutpat
-                        pharetra aenean blandit.
+                        Отличное место, очень уютно, всегда отлично постригут, поддержат беседу и
+                        рады вам в любую погоду. Отдельно хочу поблагодарить Мастера с большой буквы
+                        - Эдуарда Шаипова - один из лучших мастеров, которые меня когда либо
+                        стригли: всегда идеально, учитывает все пожелания, может посоветовать что-то
+                        от себя и просто отличный парень.
                       </p>
-                      <span className="main_author highlight">Esther Howard</span>
+                      <span className="main_author highlight">Абдуллах М</span>
                     </div>
                   </div>
                 </div>
@@ -390,11 +381,11 @@ const About = () => {
                     </span>
                     <div className="main d-flex flex-column justify-content-between">
                       <p className="main_review">
-                        Tincidunt ante faucibus in dui quam aliquam integer nunc neque. Augue in
-                        nullam urna nulla. Hac nisi habitant elementum cras duis placerat egestas
-                        nisl. Vestibulum molestie tellus facilisi id. Sed id.
+                        Ребята отлично стригут и мне нравится ассортимент косметики для волос,
+                        который у них есть. Мастер посоветовал мне нужную пасту для волос, а раньше
+                        я пользовался глиной. На световых волосах это сразу заметно.
                       </p>
-                      <span className="main_author highlight">Harry Potter</span>
+                      <span className="main_author highlight">Михаил Г.</span>
                     </div>
                   </div>
                 </div>
@@ -425,11 +416,12 @@ const About = () => {
                     </span>
                     <div className="main d-flex flex-column justify-content-between">
                       <p className="main_review">
-                        Interdum tincidunt condimentum vestibulum feugiat arcu, in. Maecenas sit sem
-                        erat tellus pellentesque aliquet. Interdum tincidunt condimentum vestibulum
-                        feugiat arcu, in. Maecenas sit sem erat tellus pellentesque aliquet.
+                        Подобные заведения – это отдельная атмосфера, и особенность жизни. В таких
+                        местах работают люди, для которых это действительно важно и интересно, они
+                        воспринимают свою работу, как стиль жизни. Для моих мужчин это любимое место
+                        ,а для сына ещё поделиться эмоциями и новинками с мастером.
                       </p>
-                      <span className="main_author highlight">John Doe</span>
+                      <span className="main_author highlight">Cофия Д.</span>
                     </div>
                   </div>
                 </div>

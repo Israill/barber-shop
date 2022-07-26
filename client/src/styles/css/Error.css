@@ -16,7 +16,7 @@
 .error_code {
     -webkit-clip-path: url(#svgPath);
     clip-path: url(#svgPath);
-    background: url(../../public/img/placeholder.jpg) center/cover no-repeat fixed;
+    background: url(/img/placeholder.jpg) center/cover no-repeat fixed;
     min-width: 221px;
     min-height: 122px;
     margin: 0 auto
