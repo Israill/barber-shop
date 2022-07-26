@@ -19,7 +19,7 @@ const Navbar = () => {
             />
           </svg>
 
-          <span className="brand-logo_name">barbercrop</span>
+          <span className="brand-logo_name">eddy cuts</span>
         </a>
         <nav className="header_nav">
           <ul className="header_nav-list">
@@ -45,12 +45,12 @@ const Navbar = () => {
             </li>
             <li className="header_nav-list_item nav-item" data-page="contacts">
               <Link href={'/contacts'}>
-                <a className="nav-link">Конакты</a>
+                <a className="nav-link">Контакты</a>
               </Link>
             </li>
             <li className="header_nav-list_item nav-item" data-page="gallery">
               <Link href={'/gallery'}>
-                <a className="nav-link">Галлерея</a>
+                <a className="nav-link">Галерея</a>
               </Link>
             </li>
           </ul>
