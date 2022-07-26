@@ -77,7 +77,7 @@ export default function Home() {
                 Команда профессионалов ждет вас
               </h2>
               <p className="schedule_content-text text" data-aos="fade-right">
-                ВЫ НЕ УСПЕЕТЕ ЗАМЕТИТЬ, КАК СНОВА ЗАХОТИТЕ ВЕРНУТЬСЯ В НАШ БАРБЕРШОП.
+              ВЫ НЕ УСПЕЕТЕ ЗАМЕТИТЬ, КАК СНОВА ЗАХОТИТЕ ВЕРНУТЬСЯ В НАШ БАРБЕРШОП.
               </p>
             </div>
             <div className="schedule_hours col-xl-6">
