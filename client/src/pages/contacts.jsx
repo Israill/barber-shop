@@ -3,10 +3,10 @@ const Contacts = () => {
     <>
       <main>
         <section className="contacts section">
-          <div className="container">
+          <div className="container !mt-24">
             <div className="contacts_header section_header">
-              <h2 className="contacts_header-title section_header-title" data-aos="fade-right">
-                Let’s talk or book now
+              <h2 className="contacts_header-title section_header-title !mb-4" data-aos="fade-right">
+                Забронируйте прямо сейчас
               </h2>
               <span
                 className="contacts_header-subtitle section_header-subtitle"
@@ -14,32 +14,32 @@ const Contacts = () => {
                 data-aos-delay="50"
                 data-aos-once="false"
               >
-                Contacts
+                Контакты
               </span>
             </div>
             <div className="contacts_main d-flex flex-column flex-lg-row justify-content-between">
               <ul className="contacts_main-data">
                 <li className="contacts_main-data_item">
-                  <h3 className="title">Email</h3>
-                  <a className="data link link--underline" href="mailto:example@domain.com">
-                    barbercrop@example.com
+                  <h3 className="title">Электронная почта</h3>
+                  <a className="data link link--underline">
+                    barbercrop@gmail.com
                   </a>
                 </li>
                 <li className="contacts_main-data_item">
-                  <h3 className="title">Address</h3>
+                  <h3 className="title">Адрес</h3>
                   <span className="data">
-                    3891 Ranchview Dr. Richardson,{' '}
-                    <span className="linebreak">California 62639</span>
+                  просп. Кадырова, 34, Грозный,{' '}
+                    <span className="linebreak">Чеченская Республика 364061</span>
                   </span>
                 </li>
                 <li className="contacts_main-data_item contacts_main-data_item--tel">
-                  <h3 className="title">Phone</h3>
+                  <h3 className="title">Телефон</h3>
                   <div className="wrapper d-flex flex-column flex-md-row">
-                    <a className="data link link--underline" href="tel:+1234567890">
-                      +1 234 567 890
+                    <a className="data link link--underline" href="tel:+79640009595">
+                      +7 964 000 95 95
                     </a>
-                    <a className="data link link--underline" href="tel:+1234567890">
-                      +1 234 567 890
+                    <a className="data link link--underline !ml-3" href="tel:+79650009596">
+                      +7 965 000 95 96
                     </a>
                   </div>
                 </li>
@@ -53,34 +53,34 @@ const Contacts = () => {
               >
                 <div className="form-block">
                   <label className="contacts_main-form_label" htmlFor="contactsName">
-                    Name and surname *
+                    Полное имя*
                   </label>
                   <input
                     className="field field--corner required"
                     type="text"
                     id="contactsName"
                     name="contactsName"
-                    placeholder="Your name here"
+                    placeholder="тут"
                   />
                 </div>
                 <div className="form-block">
                   <label className="contacts_main-form_label" htmlFor="contactsService">
-                    Choose a service *
+                  Выберите услугу *
                   </label>
                   <div className="field-wrapper_block">
                     <select name="contactsService" id="contactsService">
-                      <option value="haircut">Haircut</option>
-                      <option value="dyeing">Hair dyeing</option>
-                      <option value="trim">Beard trim</option>
-                      <option value="stacking">Stacking</option>
-                      <option value="shave">Shave</option>
-                      <option value="mustache">Mustache</option>
+                      <option value="haircut">Стрижка волос</option>
+                      <option value="dyeing">Покраска волос</option>
+                      <option value="trim">Стрижка бороды</option>
+                      <option value="stacking">Укладка</option>
+                      <option value="shave">Бритье</option>
+                      <option value="mustache">Усы</option>
                     </select>
                   </div>
                 </div>
                 <div className="form-block">
                   <label className="contacts_main-form_label" htmlFor="contactsTel">
-                    Your phone number *
+                    Ваш номер телефона *
                   </label>
                   <input
                     className="field field--corner required"
@@ -88,12 +88,12 @@ const Contacts = () => {
                     type="text"
                     name="contactsTel"
                     id="contactsTel"
-                    placeholder="Your phone here"
+                    placeholder="номер телефона"
                   />
                 </div>
                 <div className="form-block">
                   <label className="contacts_main-form_label" htmlFor="contactsDate">
-                    Choose an appointment date
+                    Выберите дату встречи
                   </label>
                   <input
                     className="field field--corner optional"
@@ -101,23 +101,23 @@ const Contacts = () => {
                     type="text"
                     id="contactsDate"
                     name="contactsDate"
-                    placeholder="dd/mm/yyyy"
+                    placeholder="день/месяц/год"
                   />
                 </div>
                 <div className="form-block">
                   <label className="contacts_main-form_label" htmlFor="contactsMessage">
-                    Message
+                    Сообщение
                   </label>
                   <textarea
                     className="field field--corner optional"
                     id="contactsMessage"
                     name="contactsMessage"
-                    placeholder="Your message here"
+                    placeholder="ваш текст здесь"
                     data-type="message"
                   ></textarea>
                 </div>
                 <button className="btn theme-element" type="submit">
-                  Book now
+                  Забронировать
                 </button>
               </form>
             </div>

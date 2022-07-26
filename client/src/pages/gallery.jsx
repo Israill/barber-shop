@@ -6,7 +6,7 @@ const Gallery = () => {
           <div className="container">
             <div className="gallery_header section_header">
               <h2 className="gallery_header-title section_header-title" data-aos="fade-right">
-                Gallery with our Cuts
+                Наши клиенты
               </h2>
               <span
                 className="gallery_header-subtitle section_header-subtitle"
@@ -14,50 +14,45 @@ const Gallery = () => {
                 data-aos-delay="50"
                 data-aos-once="false"
               >
-                Gallery
+                Галлерея
               </span>
             </div>
             <div className="gallery_content">
               <ul className="gallery_content-filters d-flex flex-wrap">
                 <li className="list-item">
                   <a data-target="all" className="gallery_content-filters_filter current" href="#">
-                    All
+                  Все
                   </a>
                 </li>
                 <li className="list-item">
                   <a data-target="haircut" className="gallery_content-filters_filter" href="#">
-                    Haircut
+                  Стрижка волос
                   </a>
                 </li>
                 <li className="list-item">
                   <a data-target="beard" className="gallery_content-filters_filter" href="#">
-                    Beard and mustache
-                  </a>
-                </li>
-                <li className="list-item">
-                  <a data-target="dyeing" className="gallery_content-filters_filter" href="#">
-                    Hair dyeing
+                  Борода и усы
                   </a>
                 </li>
               </ul>
               <div className="gallery_content-media">
                 <figure
                   className="gallery_content-media_item col-md-6"
-                  data-groups='["haircut", "dyeing"]'
+                  data-groups='["haircut"]'
                   data-order="1"
                 >
-                  <a className="aspect" href="img/placeholder.jpg" data-caption="Image caption">
+                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
                     <div className="aspect_inner">
                       <picture>
                         <source
-                          data-srcset="img/placeholder.jpg"
-                          srcSet="img/placeholder.jpg"
+                          data-srcset="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          srcSet="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           type="image/webp"
                         />
                         <img
                           className="gallery-img lazy"
-                          data-src="img/placeholder.jpg"
-                          src="img/placeholder.jpg"
+                          data-src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           alt="media"
                         />
                       </picture>
@@ -70,18 +65,18 @@ const Gallery = () => {
                   data-groups='["beard"]'
                   data-order="2"
                 >
-                  <a className="aspect" href="img/placeholder.jpg" data-caption="Image caption">
+                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
                     <div className="aspect_inner">
                       <picture>
                         <source
-                          data-srcset="img/placeholder.jpg"
-                          srcSet="img/placeholder.jpg"
+                          data-srcset="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          srcSet="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           type="image/webp"
                         />
                         <img
                           className="gallery-img lazy"
-                          data-src="img/placeholder.jpg"
-                          src="img/placeholder.jpg"
+                          data-src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           alt="media"
                         />
                       </picture>
@@ -94,18 +89,18 @@ const Gallery = () => {
                   data-groups='["beard", "haircut"]'
                   data-order="3"
                 >
-                  <a className="aspect" href="img/placeholder.jpg" data-caption="Image caption">
+                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
                     <div className="aspect_inner">
                       <picture>
                         <source
-                          data-srcset="img/placeholder.jpg"
-                          srcSet="img/placeholder.jpg"
+                          data-srcset="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          srcSet="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           type="image/webp"
                         />
                         <img
                           className="gallery-img lazy"
-                          data-src="img/placeholder.jpg"
-                          src="img/placeholder.jpg"
+                          data-src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           alt="media"
                         />
                       </picture>
@@ -115,21 +110,21 @@ const Gallery = () => {
 
                 <figure
                   className="gallery_content-media_item col-md-6"
-                  data-groups='["beard", "haircut", "dyeing"]'
+                  data-groups='["beard", "haircut"]'
                   data-order="4"
                 >
-                  <a className="aspect" href="img/placeholder.jpg" data-caption="Image caption">
+                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
                     <div className="aspect_inner">
                       <picture>
                         <source
-                          data-srcset="img/placeholder.jpg"
-                          srcSet="img/placeholder.jpg"
+                          data-srcset="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          srcSet="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           type="image/webp"
                         />
                         <img
                           className="gallery-img lazy"
-                          data-src="img/placeholder.jpg"
-                          src="img/placeholder.jpg"
+                          data-src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           alt="media"
                         />
                       </picture>
@@ -139,21 +134,21 @@ const Gallery = () => {
 
                 <figure
                   className="gallery_content-media_item col-md-6"
-                  data-groups='["haircut", "dyeing"]'
+                  data-groups='["haircut"]'
                   data-order="5"
                 >
-                  <a className="aspect" href="img/placeholder.jpg" data-caption="Image caption">
+                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
                     <div className="aspect_inner">
                       <picture>
                         <source
-                          data-srcset="img/placeholder.jpg"
-                          srcSet="img/placeholder.jpg"
+                          data-srcset="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          srcSet="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           type="image/webp"
                         />
                         <img
                           className="gallery-img lazy"
-                          data-src="img/placeholder.jpg"
-                          src="img/placeholder.jpg"
+                          data-src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           alt="media"
                         />
                       </picture>
@@ -163,21 +158,21 @@ const Gallery = () => {
 
                 <figure
                   className="gallery_content-media_item col-md-6"
-                  data-groups='["dyeing"]'
-                  data-order="6"
+                  data-groups='["haircut"]'
+                  data-order="5"
                 >
-                  <a className="aspect" href="img/placeholder.jpg" data-caption="Image caption">
+                  <a className="aspect" href="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg" data-caption="Image caption">
                     <div className="aspect_inner">
                       <picture>
                         <source
-                          data-srcset="img/placeholder.jpg"
-                          srcSet="img/placeholder.jpg"
+                          data-srcset="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          srcSet="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           type="image/webp"
                         />
                         <img
                           className="gallery-img lazy"
-                          data-src="img/placeholder.jpg"
-                          src="img/placeholder.jpg"
+                          data-src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
+                          src="https://i3.photo.2gis.com/images/branch/0/30258560055648549_e8a2.jpg"
                           alt="media"
                         />
                       </picture>
@@ -186,9 +181,12 @@ const Gallery = () => {
                 </figure>
               </div>
             </div>
-            <div className="pagination gallery_pagination d-flex justify-content-center align-items-center">
+            </div>
+        </section>
+      </main>
+      <div className="pagination gallery_pagination d-flex justify-content-center align-items-center !p-16">
               <a className="pagination_control btn btn--revert theme-element" href="#">
-                Back
+                Обратно
               </a>
               <ul className="pagination_pages d-flex">
                 <li className="pagination_pages-page">
@@ -208,12 +206,9 @@ const Gallery = () => {
                 </li>
               </ul>
               <a className="pagination_control btn btn--revert theme-element" href="#">
-                Next
+              Следующий
               </a>
             </div>
-          </div>
-        </section>
-      </main>
     </>
   );
 };
