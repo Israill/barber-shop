@@ -414,7 +414,7 @@
 }
 
 .post_aside-block--promo {
-    background: url(../../public/img/placeholder.jpg) center/cover no-repeat;
+    background: url(/img/placeholder.jpg) center/cover no-repeat;
     position: relative;
     padding: 15px 0;
     height: 440px;
