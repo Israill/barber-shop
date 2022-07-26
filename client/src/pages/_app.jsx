@@ -13,8 +13,6 @@ import '../styles/css/Post.css';
 import '../styles/css/Preload.css';
 import '../styles/css/Services.css';
 
-import $ from 'jquery'
-
 const App = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>

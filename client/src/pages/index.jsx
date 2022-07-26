@@ -44,17 +44,19 @@ export default function Home() {
                     "
           >
             <div className="hero_content col-xl-7 col-xxl-6">
-              <h1 className="hero_content-header">We will keep you an impeccable look</h1>
+              <h1 className="hero_content-header">
+                Стиль — это способ сказать кто вы, не говоря ни слова.
+              </h1>
               <p className="hero_content-text text">
-                3891 Ranchview Dr. Richardson,
-                <span className="linebreak">California 62639</span>
+                просп. Кадырова 34,
+                <span className="linebreak">Грозный</span>
               </p>
               <span className="hero_content-tel d-inline-flex align-items-center">
                 <span className="icon d-flex justify-content-center align-items-center">
                   <i className="icon-phone"></i>
                 </span>
                 <a className="link" href="tel:+1234567890">
-                  +1 234 567 890
+                  +7 929 609 14 15
                 </a>
               </span>
             </div>
@@ -66,8 +68,8 @@ export default function Home() {
           <div className="container d-xl-flex justify-content-between">
             <div className="about_header section_header col-xl-6">
               <h2 className="about_header-title section_header-title" data-aos="fade-right">
-                professional barbershop
-                <span className="linebreak">for men only</span>
+                профессиональный барбершоп
+                <span className="linebreak">для мужчин</span>
               </h2>
               <span
                 className="about_header-subtitle section_header-subtitle"
@@ -75,36 +77,35 @@ export default function Home() {
                 data-aos-delay="50"
                 data-aos-once="false"
               >
-                Barbercrop
+                Eddy cuts
               </span>
             </div>
             <div className="about_info col-xl-6">
               <p className="about_info-text text" data-aos="fade-left">
-                Et tellus rhoncus urna a. Tempus felis, sociis lorem aliquet nibh pellentesque.
-                Vitae nunc, dolor, blandit eget eleifend etiam id. Amet arcu lobortis sed pulvinar
-                cursus pretium sit pretium.
+              Мода – вопрос денег. Стиль – вопрос индивидуальности.
+              Мы поможем вам сохранить безупречный стиль.
               </p>
               <div className="wrapper d-sm-flex">
                 <div className="about_info-fact">
                   <h3 className="about_info-fact_title" data-aos="fade-up">
-                    Since 2015
+                    работаем с 2015
                   </h3>
                   <p className="about_info-fact_description" data-aos="fade-up">
-                    Dui cursus neque et at ipsum. Cursus urna fringilla nisl enim duis cras odio.
+                    За этот период мы успели обслужить бесчисленное множество клиентов.
                   </p>
                 </div>
                 <div className="about_info-fact">
                   <h3 className="about_info-fact_title" data-aos="fade-up" data-aos-delay="50">
-                    1000+ clients
+                    1000+ клиентов
                   </h3>
                   <p className="about_info-fact_description" data-aos="fade-up" data-aos-delay="50">
-                    Metus varius vitae habitant lorem. Porta scelerisque facilisi.
+                    Именитые спортсмены и известные личности доверяют нам.
                   </p>
                 </div>
               </div>
               <div className="wrapper" data-aos="fade-up" data-aos-delay="100">
                 <a className="about_info-btn btn theme-element" href="about.html">
-                  learn more
+                  Подробнее
                 </a>
               </div>
             </div>
@@ -118,52 +119,50 @@ export default function Home() {
           <div className="schedule_container container d-xl-flex flex-wrap">
             <div className="schedule_content col-xl-6">
               <h2 className="schedule_content-header" data-aos="fade-right">
-                Team of professionals is waiting for you
+                Команда профессионалов ждет вас
               </h2>
               <p className="schedule_content-text text" data-aos="fade-right">
-                Risus odio lobortis ullamcorper felis vitae bibendum mi. Penatibus fusce consequat
-                donec vitae porttitor elementum volutpat gravida. Tellus hac tristique nisi, id amet
-                cras tempor, amet.
+              ВЫ НЕ УСПЕЕТЕ ЗАМЕТИТЬ, КАК СНОВА ЗАХОТИТЕ ВЕРНУТЬСЯ В НАШ БАРБЕРШОП.
               </p>
             </div>
             <div className="schedule_hours col-xl-6">
               <h2 className="schedule_hours-header" data-aos="fade-left">
-                Special Opening Hours
+                Мы работаем:
               </h2>
               <div className="schedule_hours-list d-md-flex">
                 <div className="schedule_hours-list_group">
                   <span className="list-item" data-aos="fade-up">
-                    <span className="weekday">Monday:</span>
-                    9:00 am – 7:30 pm
+                    <span className="weekday">Понедельник:</span>
+                    10:00 до – 22:00
                   </span>
                   <span className="list-item" data-aos="fade-up">
-                    <span className="weekday">Tuesday:</span>
-                    9:00 am – 7:30 pm
+                    <span className="weekday">Вторник:</span>
+                    10:00 до – 22:00
                   </span>
                   <span className="list-item" data-aos="fade-up">
-                    <span className="weekday">Wednesday:</span>
-                    9:00 am – 7:30 pm
+                    <span className="weekday">Среда:</span>
+                    10:00 до – 22:00
                   </span>
                 </div>
                 <div className="schedule_hours-list_group">
                   <span className="list-item" data-aos="fade-up">
-                    <span className="weekday">Thursday:</span>
-                    9:00 am – 7:30 pm
+                    <span className="weekday">Четверг:</span>
+                    10:00 до – 22:00
                   </span>
                   <span className="list-item" data-aos="fade-up">
-                    <span className="weekday">Friday:</span>
-                    9:00 am – 7:30 pm
+                    <span className="weekday">Пятница:</span>
+                    10:00 до – 22:00
                   </span>
                   <span className="list-item" data-aos="fade-up">
-                    <span className="weekday">Sat/sun:</span>
-                    CLOSED
+                    <span className="weekday">Выходные:</span>
+                    10:00 до – 22:00
                   </span>
                 </div>
               </div>
             </div>
             <div className="wrapper schedule_wrapper" data-aos="fade-up">
               <a className="schedule_btn btn theme-element" href="#">
-                Book now
+                записаться
               </a>
             </div>
           </div>
@@ -172,7 +171,7 @@ export default function Home() {
         <section className="blog section">
           <div className="container">
             <div className="blog_header section_header">
-              <h2 className="blog_header-title section_header-title">Our blog</h2>
+              <h2 className="blog_header-title section_header-title">наш блог</h2>
               <span
                 className="blog_header-subtitle section_header-subtitle"
                 data-aos="fade-right"
@@ -201,8 +200,8 @@ export default function Home() {
                     </picture>
                   </div>
                   <div className="main d-md-flex flex-column justify-content-between">
-                    <h4 className="title">5 advantages why you should visit barbershop</h4>
-                    <span className="date highlight">04 August, 2021</span>
+                    <h4 className="title">5 ПРЕИМУЩЕСТВ, ПОЧЕМУ СТОИТ ПОСЕТИТЬ БАРБЕРШОП</h4>
+                    <span className="date highlight">26 Июль, 2022</span>
                   </div>
                 </a>
               </li>
@@ -228,8 +227,8 @@ export default function Home() {
                     </picture>
                   </div>
                   <div className="main d-md-flex flex-column justify-content-between">
-                    <h4 className="title">Top 10 Popular cosmetics for hair styling</h4>
-                    <span className="date highlight">02 August, 2021</span>
+                    <h4 className="title">Топ-10 популярных косметических средств для укладки волос</h4>
+                    <span className="date highlight">02 Июль, 2022</span>
                   </div>
                 </a>
               </li>
@@ -255,8 +254,8 @@ export default function Home() {
                     </picture>
                   </div>
                   <div className="main d-md-flex flex-column justify-content-between">
-                    <h4 className="title">Some Features of beard and mustache care</h4>
-                    <span className="date highlight">12 July, 2021</span>
+                    <h4 className="title">НЕКОТОРЫЕ ОСОБЕННОСТИ УХОДА ЗА БОРОДОЙ И УСАМИ</h4>
+                    <span className="date highlight">12 Июль, 2022</span>
                   </div>
                 </a>
               </li>
