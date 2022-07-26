@@ -6,14 +6,15 @@ const Error = () => {
       <main className="error d-flex align-items-center justify-content-center">
         <div className="container d-flex flex-column-reverse flex-lg-row justify-content-lg-between align-items-center">
           <div className="error_message flex-grow-1 d-flex flex-column align-items-center align-items-lg-start col-lg-5">
-            <h2 className="error_message-title">Page not found</h2>
+            <h2 className="error_message-title">СТРАНИЦА НЕ НАЙДЕНА</h2>
             <p className="error_message-text text">
-              Nullam feugiat integer mi enim arcu, interdum faucibus sed. A tempor orci, nec sit
-              lobortis amet purus.
+            Это не та веб-страница, которую вы ищете.
             </p>
-            <a className="btn theme-element" href="index.html">
-              Go to main page
+            <Link href={'/'}>
+            <a className="btn theme-element">
+            Перейти на главную
             </a>
+            </Link>
           </div>
           <div className="error_code">
             <svg
