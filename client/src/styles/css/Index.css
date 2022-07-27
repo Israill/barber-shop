@@ -6551,7 +6551,7 @@ img {
 }
 
 .about_info-fact_title {
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 .about_info-fact:first-of-type {
@@ -6601,7 +6601,8 @@ img {
     }
 
     .about_info-fact_title {
-        margin-bottom: 5px
+        margin-bottom: 5px;
+
     }
 }
 
@@ -6619,7 +6620,7 @@ img {
     }
 
     .about_info-fact_title {
-        margin-bottom: 15px
+        margin-bottom: 15px;
     }
 
     .about_info-fact_description {
@@ -6747,7 +6748,7 @@ img {
 
 .schedule {
     color: #fff;
-    background: url(/img/placeholder.jpg) center/cover no-repeat;
+    background: url(/img/schedule-bg.webp) center/cover no-repeat;
     position: relative
 }
 
