@@ -135,7 +135,7 @@ export default function Home() {
                 data-aos-delay="50"
                 data-aos-once="false"
               >
-                Recent posts
+                Последние посты
               </span>
             </div>
             <ul className="blog_recent d-md-flex flex-wrap">
