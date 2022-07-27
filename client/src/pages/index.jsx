@@ -2,8 +2,8 @@ import Cropservice from '@/components/Cropservice';
 import Stats from '@/components/Stats';
 
 export default function Home() {
-
-  
+// todo
+  // title
   return (
     <>
       <main>
@@ -125,7 +125,7 @@ export default function Home() {
                 data-aos-delay="50"
                 data-aos-once="false"
               >
-                Recent posts
+                Последние посты
               </span>
             </div>
             <ul className="blog_recent d-md-flex flex-wrap">

@@ -15,7 +15,7 @@ const Blog = () => {
               data-aos-delay="50"
               data-aos-once="false"
             >
-              Recent posts
+              Последние посты
             </span>
           </div>
           <ul className="feed_posts d-md-flex flex-wrap">
