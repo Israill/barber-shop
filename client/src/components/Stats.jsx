@@ -35,7 +35,7 @@ const Stats = () => {
                 </div>
                 <div className="about_info-fact">
                   <h3 className="about_info-fact_title" data-aos="fade-up" data-aos-delay="50">
-                  <NumberCounter end={1000} delay={2.5} />клиентов
+                  <NumberCounter end={1000} delay={3} />клиентов
                   </h3>
                   <p className="about_info-fact_description" data-aos="fade-up" data-aos-delay="50">
                     Именитые спортсмены и известные личности доверяют нам.
