@@ -3,7 +3,7 @@ import Cropservice from '@/components/Cropservice';
 import Stats from '@/components/Stats';
 
 export default function Home() {
-
+// todo
   
   return (
     <>
