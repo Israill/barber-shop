@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="header" data-page="about">
       <div className="container-fluid container-lg d-flex flex-wrap align-items-center justify-content-between">
-        <a className="brand-logo d-flex align-items-center header_logo" href="index.html">
+      <Link href={'/'}><a className="brand-logo d-flex align-items-center header_logo">
           <svg
             className="brand-logo_icon"
             width="40"
@@ -20,7 +20,7 @@ const Navbar = () => {
           </svg>
 
           <span className="brand-logo_name">eddy cuts</span>
-        </a>
+        </a></Link>
         <nav className="header_nav">
           <ul className="header_nav-list">
             <li className="header_nav-list_item nav-item" data-page="home">
