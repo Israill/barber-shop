@@ -4,7 +4,7 @@ import Stats from '@/components/Stats';
 
 export default function Home() {
 // todo
-  
+  // title
   return (
     <>
       <Head>
