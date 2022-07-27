@@ -1,60 +1,80 @@
 import Cropservice from '@/components/Cropservice';
 import Stats from '@/components/Stats';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 
 export default function Home() {
-// todo
-  // title
+  const images = [
+    {
+      url: "/img/hero01.webp",
+      b_text: "Стиль — это способ сказать кто вы, не говоря ни слова.",
+    },
+    {
+      url: "/img/hero03.webp",
+      b_text: "Лысый считал парикмахерские салоны пережитками прошлого",
+    },
+    {
+      url: "/img/hero04.webp",
+      b_text: "Я прекрасно умею появляться в нужный момент. А ещё у меня отличная причёска.",
+    },
+    {
+      url: "/img/hero06.webp",
+      b_text: "Кто тебя так подстриг? Стиви Уандер?",
+    },
+  ];
+
   return (
     <>
       <main>
-        <section className="hero d-flex">
-          <div className="hero_slider">
-            <div className="hero_slider-wrapper swiper-wrapper">
-              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
-            </div>
-            <div className="hero_slider-pagination swiper-pagination"></div>
-            <div className="hero_slider-controls d-none d-md-flex justify-content-between">
-              <span className="hero_slider-control hero_slider-control--prev">
-                <i className="icon-arrow_left"></i>
-              </span>
-              <span className="hero_slider-control hero_slider-control--next">
-                <i className="icon-arrow_right"></i>
-              </span>
-            </div>
-          </div>
-          <div
+        <section className="hero d-flex h-full">
+        <Swiper
+          modules={[Navigation, Pagination, A11y, Autoplay]}
+          spaceBetween={0}
+          slidesPerView={1}
+          speed={1000}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: true,
+          }}
+        >
+          {images.map((i, index) => {
+          return (
+            <SwiperSlide>
+              <div
             className="
-                        container
                         d-flex
                         flex-column
                         justify-content-center
-                        align-items-center align-items-md-start align-items-lg-center align-items-xl-start
+                        align-items-center align-items-md-start align-items-lg-center align-items-xl-start h-full
                     "
-          >
-            <div className="hero_content col-xl-7 col-xxl-6">
-              <h1 className="hero_content-header">
-                Стиль — это способ сказать кто вы, не говоря ни слова.
-              </h1>
+          ><img src={i.url} alt="tent" className='z-10 absolute h-full' />
+            <div className="hero_content col-xl-7 col-xxl-6 m-auto">
+              <h1 className="hero_content-header">{i.b_text}</h1>
               <p className="hero_content-text text">
                 просп. Кадырова 34,
                 <span className="linebreak">Грозный</span>
               </p>
               <span className="hero_content-tel d-inline-flex align-items-center">
-                <span className="icon d-flex justify-content-center align-items-center">
+              <span className="icon d-flex justify-content-center align-items-center">
                   <i className="icon-phone"></i>
-                </span>
-                <a className="link" href="tel:+1234567890">
+                </span><a className="link" href="tel:+1234567890">
                   +7 938 906 36 36
                 </a>
               </span>
             </div>
           </div>
-          <span className="hero_overlay"></span>
+            </SwiperSlide>
+          );
+        })}
+        </Swiper>
         </section>
 
         <Stats />
