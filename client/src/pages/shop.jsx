@@ -23,7 +23,7 @@ const Shop = () => {
       >
         <summary className="flex items-center justify-between px-5 py-3 main-color lg:hidden">
           <span className="text-sm font-medium text-white">
-            Фильтер
+            Фильтр
           </span>
 
           <svg className="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -37,7 +37,7 @@ const Shop = () => {
         >
           <fieldset>
             <legend className="block w-full px-5 py-3 text-xm font-medium bg-red-600 text-white">
-              Фильтер
+              Фильтр
             </legend>
 
             <div className="px-5 py-6 space-y-2">
@@ -53,7 +53,7 @@ const Shop = () => {
                   htmlFor="toy"
                   className="ml-3 text-sm font-medium"
                 >
-                  Волосы
+                  Учебный набор
                 </label>
               </div>
 
@@ -69,7 +69,7 @@ const Shop = () => {
                   htmlFor="game"
                   className="ml-3 text-sm font-medium"
                 >
-                  Лицо
+                  Учебные головы
                 </label>
               </div>
 
@@ -85,7 +85,103 @@ const Shop = () => {
                   htmlFor="outdoor"
                   className="ml-3 text-sm font-medium"
                 >
-                  Бритьё
+                  Техника
+                </label>
+              </div>
+
+              <div className="flex items-center">
+                <input
+                  id="game"
+                  type="checkbox"
+                  name="type[game]"
+                  className="w-5 h-5 border-gray-300 rounded"
+                />
+
+                <label
+                  htmlFor="game"
+                  className="ml-3 text-sm font-medium"
+                >
+                  Инструменты
+                </label>
+              </div>
+
+              <div className="flex items-center">
+                <input
+                  id="game"
+                  type="checkbox"
+                  name="type[game]"
+                  className="w-5 h-5 border-gray-300 rounded"
+                />
+
+                <label
+                  htmlFor="game"
+                  className="ml-3 text-sm font-medium"
+                >
+                  Принадлежности
+                </label>
+              </div>
+
+              <div className="flex items-center">
+                <input
+                  id="game"
+                  type="checkbox"
+                  name="type[game]"
+                  className="w-5 h-5 border-gray-300 rounded"
+                />
+
+                <label
+                  htmlFor="game"
+                  className="ml-3 text-sm font-medium"
+                >
+                  Сумка и одежда
+                </label>
+              </div>
+
+              <div className="flex items-center">
+                <input
+                  id="game"
+                  type="checkbox"
+                  name="type[game]"
+                  className="w-5 h-5 border-gray-300 rounded"
+                />
+
+                <label
+                  htmlFor="game"
+                  className="ml-3 text-sm font-medium"
+                >
+                  Барбершоп
+                </label>
+              </div>
+
+              <div className="flex items-center">
+                <input
+                  id="game"
+                  type="checkbox"
+                  name="type[game]"
+                  className="w-5 h-5 border-gray-300 rounded"
+                />
+
+                <label
+                  htmlFor="game"
+                  className="ml-3 text-sm font-medium"
+                >
+                  Лицо и тело
+                </label>
+              </div>
+
+              <div className="flex items-center">
+                <input
+                  id="game"
+                  type="checkbox"
+                  name="type[game]"
+                  className="w-5 h-5 border-gray-300 rounded"
+                />
+
+                <label
+                  htmlFor="game"
+                  className="ml-3 text-sm font-medium"
+                >
+                  Косметика для волос
                 </label>
               </div>
 
@@ -101,18 +197,9 @@ const Shop = () => {
           </fieldset>
 
           <div>
-            {/* Тут может быть новый фильтер */}
+            {/* Тут может быть новый фильтр */}
           </div>
 
-          <div className="flex justify-between px-5 py-3 border-t border-red-600">
-            <button
-              name="commit"
-              type="button"
-              className="px-5 py-3 text-xs font-medium text-white bg-green-600 rounded"
-            >
-              Применить фильтер
-            </button>
-          </div>
         </form>
       </details>
     </div>

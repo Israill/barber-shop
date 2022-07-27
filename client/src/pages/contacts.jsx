@@ -67,10 +67,9 @@ const Contacts = () => {
                   <label className="contacts_main-form_label" htmlFor="contactsService">
                   Выберите услугу *
                   </label>
-                  <div className="field-wrapper_block">
-                    <select name="contactsService" id="contactsService">
+                  <div className="field-wrapper_block my-2">
+                    <select name="contactsService" className="p-2 rounded" id="contactsService">
                       <option value="haircut">Стрижка волос</option>
-                      <option value="dyeing">Покраска волос</option>
                       <option value="trim">Стрижка бороды</option>
                       <option value="stacking">Укладка</option>
                       <option value="shave">Бритье</option>
@@ -123,9 +122,11 @@ const Contacts = () => {
             </div>
           </div>
         </section>
-        <div className="map">
-          <div id="map"></div>
+        <section className="text-gray-600 body-font relative mb-8">
+        <div className="inset-0 bg-gray-300">
+          <iframe className="h-80" width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11612.818844848507!2d45.7006208!3d43.3099739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd3111ec2dc449ec4!2sEddy.%20Cuts!5e0!3m2!1sru!2sru!4v1658919265515!5m2!1sru!2sru;output=embed" style={{filter: `grayscale(1) contrast(1.2) opacity(0.4)`}} />
         </div>
+      </section>
       </main>
     </>
   );
