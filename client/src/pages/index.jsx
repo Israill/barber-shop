@@ -3,6 +3,8 @@ import Cropservice from '@/components/Cropservice';
 import Stats from '@/components/Stats';
 
 export default function Home() {
+
+  
   return (
     <>
       <Head>
@@ -18,12 +20,12 @@ export default function Home() {
         <section className="hero d-flex">
           <div className="hero_slider">
             <div className="hero_slider-wrapper swiper-wrapper">
-              <div className="hero_slider-slide swiper-slide" data-bg="img/placeholder.jpg"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/placeholder.jpg"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/placeholder.jpg"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/placeholder.jpg"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/placeholder.jpg"></div>
-              <div className="hero_slider-slide swiper-slide" data-bg="img/placeholder.jpg"></div>
+              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
+              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
+              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
+              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
+              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
+              <div className="hero_slider-slide swiper-slide" data-bg="img/hero01.webp"></div>
             </div>
             <div className="hero_slider-pagination swiper-pagination"></div>
             <div className="hero_slider-controls d-none d-md-flex justify-content-between">
@@ -57,7 +59,7 @@ export default function Home() {
                   <i className="icon-phone"></i>
                 </span>
                 <a className="link" href="tel:+1234567890">
-                  +7 929 609 14 15
+                  +7 938 906 36 36
                 </a>
               </span>
             </div>
@@ -142,8 +144,8 @@ export default function Home() {
                   <div className="media">
                     <picture>
                       <source
-                        data-srcset="img/placeholder.jpg"
-                        srcSet="img/placeholder.jpg"
+                        data-srcset="img/blog01.webp"
+                        srcSet="img/blog01.webp"
                         type="image/webp"
                       />
                       <img
@@ -169,8 +171,8 @@ export default function Home() {
                   <div className="media">
                     <picture>
                       <source
-                        data-srcset="img/placeholder.jpg"
-                        srcSet="img/placeholder.jpg"
+                        data-srcset="img/blog02.webp"
+                        srcSet="img/blog02.webp"
                         type="image/webp"
                       />
                       <img
@@ -198,8 +200,8 @@ export default function Home() {
                   <div className="media">
                     <picture>
                       <source
-                        data-srcset="img/placeholder.jpg"
-                        srcSet="img/placeholder.jpg"
+                        data-srcset="img/blog03.webp"
+                        srcSet="img/blog03.webp"
                         type="image/webp"
                       />
                       <img

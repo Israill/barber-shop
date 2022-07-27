@@ -2,6 +2,8 @@ import Cropservice from '@/components/Cropservice';
 import Start from '@/components/Start';
 import Stats from '@/components/Stats';
 import Image from 'next/image';
+import NumberCounter from 'number-counter';
+
 
 const About = () => {
   return (
@@ -34,7 +36,7 @@ const About = () => {
               </div>
               <div className="about_info-fact">
                 <h3 className="about_info-fact_title" data-aos="fade-up" data-aos-delay="50">
-                  1000+ клиентов
+                <NumberCounter end={1000} delay={2.5}/>клиентов
                 </h3>
                 <p className="about_info-fact_description" data-aos="fade-up" data-aos-delay="50">
                   Именитые спортсмены и известные личности доверяют нам.

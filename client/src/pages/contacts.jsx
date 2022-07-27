@@ -22,7 +22,7 @@ const Contacts = () => {
                 <li className="contacts_main-data_item">
                   <h3 className="title">Электронная почта</h3>
                   <a className="data link link--underline">
-                    barbercrop@gmail.com
+                    eduard.shaipov@yandex.ru
                   </a>
                 </li>
                 <li className="contacts_main-data_item">

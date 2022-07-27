@@ -28,7 +28,7 @@ const Footer = () => {
                 <i className="icon-phone"></i>
               </span>
               <a className="link" href="tel:+1234567890">
-              +7 929 609 14 15
+              +7 929 906 36 36
               </a>
             </span>
             <p className="footer_contacts-address">
@@ -36,7 +36,7 @@ const Footer = () => {
               <span className="linebreak">Грозный</span>
             </p>
             <a className="footer_contacts-mail" href="mailto:example@domain.com">
-              eduardshaipov@gmail.com
+              eduard.shaipov@yandex.ru
             </a>
             <ul className="footer_contacts-socials d-flex align-items-center">
               <li className="list-item">
