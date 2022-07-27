@@ -1,3 +1,5 @@
+import NumberCounter from 'number-counter';
+
 
 const Stats = () => {
   return (
@@ -33,7 +35,7 @@ const Stats = () => {
                 </div>
                 <div className="about_info-fact">
                   <h3 className="about_info-fact_title" data-aos="fade-up" data-aos-delay="50">
-                    1000+ клиентов
+                  <NumberCounter end={1000} delay={2.5} />клиентов
                   </h3>
                   <p className="about_info-fact_description" data-aos="fade-up" data-aos-delay="50">
                     Именитые спортсмены и известные личности доверяют нам.
