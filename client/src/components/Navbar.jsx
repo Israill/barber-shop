@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+  
 const Navbar = () => {
   return (
     <header className="header" data-page="about">
@@ -51,6 +51,11 @@ const Navbar = () => {
             <li className="header_nav-list_item nav-item" data-page="gallery">
               <Link href={'/gallery'}>
                 <a className="nav-link">Галерея</a>
+              </Link>
+            </li>  
+            <li className="header_nav-list_item nav-item" data-page="shop">
+              <Link href={'/shop'}>
+                <a className="nav-link">Магазин</a>
               </Link>
             </li>
           </ul>
