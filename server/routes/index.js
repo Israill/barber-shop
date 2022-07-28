@@ -1,6 +1,4 @@
 import UserRoute from './users.route.js';
-import PostRoute from './posts.route.js'
-
 import Router from 'express'
 
 const router = new Router()

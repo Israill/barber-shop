@@ -3,11 +3,8 @@ import fs from 'fs';
 import multer from 'multer';
 import cors from 'cors';
 import mongoose from 'mongoose';
-
 import 'dotenv/config'
-
 import { checkAuth } from './utils/index.js';
-
 import Routes from "./routes/index.js";
 
 mongoose

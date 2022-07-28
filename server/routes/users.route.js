@@ -1,5 +1,4 @@
 import Router from 'express'
-
 import UserController from '../controllers/users.controller.js';
 import { registerValidation, loginValidation } from '../validations.js';
 import { handleValidationErrors, checkAuth } from '../utils/index.js';

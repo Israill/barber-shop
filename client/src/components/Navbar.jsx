@@ -1,6 +1,20 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import { selectIsAuth } from "../redux/slice/auth";
+import { useDispatch, useSelector } from 'react-redux'
 
 const Navbar = () => {
+  const isAuth = useSelector(selectIsAuth)
+  const dispatch = useDispatch()
+  const router = useRouter()
+
+  useEffect(() => {
+    if (isAuth) {
+      router.push('/')
+    }
+  }, [])
+
   return (
     <header className="header" data-page="about">
       <div className="container-fluid container-lg d-flex flex-wrap align-items-center justify-content-between">
@@ -60,9 +74,14 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <a className="header_btn btn theme-element" href="#">
+        <Link href={'/contacts'}><a className="mx-10 header_btn btn theme-element">
           Записаться
-        </a>
+        </a></Link>
+        {isAuth ? (<Link href={'/admin'}><a className="header_btn btn theme-element">
+          Личный кабинет
+        </a></Link>) : (<Link href={'/login'}><a className="header_btn btn theme-element">
+          Личный кабинет
+        </a></Link>)}
         <span className="header_trigger d-inline-flex d-lg-none flex-column justify-content-between">
           <span className="line"></span>
           <span className="line"></span>
