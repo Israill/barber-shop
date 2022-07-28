@@ -47,7 +47,7 @@ export default function Home() {
         >
           {images.map((i, index) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div
             className="
                         d-flex
