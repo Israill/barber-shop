@@ -7,7 +7,7 @@ import { fetchAuthMe } from "../redux/slice/auth";
 
 const Layout = ({ children }) => {
   const dispatch = useDispatch()
-
+  // Нуждается в доработке
   useEffect(() => {
     dispatch(fetchAuthMe())
   }, [])
