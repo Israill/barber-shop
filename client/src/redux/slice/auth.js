@@ -20,7 +20,7 @@ export const fetchAuthMe = createAsyncThunk('auth/fetchAuthMe', async () => {
 });
 
 const initialState = {
-  data: null,
+  data: '',
   status: 'loading',
 };
 

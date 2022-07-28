@@ -1,8 +1,8 @@
-import '../styles/global/_global.scss';
 import Layout from '@/components/Layout';
-import { Provider } from 'react-redux';
 import store from '../redux/store';
+import { Provider } from 'react-redux';
 
+import '../styles/global/_global.scss';
 import '../styles/css/Preload.css';
 import '../styles/css/Libs.css';
 import '../styles/css/Error.css';
@@ -21,6 +21,7 @@ const App = ({ Component, pageProps }) => {
       </Layout>
     </Provider>
   );
+  
 };
 
 export default App;

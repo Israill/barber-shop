@@ -41,7 +41,7 @@ export default function Home() {
           slidesPerView={1}
           speed={1000}
           autoplay={{
-            delay: 3000,
+            delay: 5000,
             disableOnInteraction: true,
           }}
         >
@@ -56,7 +56,7 @@ export default function Home() {
                         align-items-center align-items-md-start align-items-lg-center align-items-xl-start h-full
                     "
           ><img src={i.url} alt="tent" className='z-10 absolute h-full' />
-            <div className="hero_content col-xl-7 col-xxl-6 m-auto">
+            <div className="hero_content col-xl-7 col-xxl-6 m-auto pt-16">
               <h1 className="hero_content-header">{i.b_text}</h1>
               <p className="hero_content-text text">
                 просп. Кадырова 34,
