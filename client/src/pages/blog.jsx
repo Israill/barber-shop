@@ -14,15 +14,13 @@ const Blog = () => {
     dispatch(fetchNews());
   }, []);
 
-  console.log('BLOG', news);
-
   return (
     <main>
       <section className="feed section">
         <div className="container">
           <div className="feed_header section_header">
             <h2 className="feed_header-title section_header-title" data-aos="fade-right">
-             НАШИ НОВОСТИ
+              НАШИ НОВОСТИ
             </h2>
             <span
               className="feed_header-subtitle section_header-subtitle"
