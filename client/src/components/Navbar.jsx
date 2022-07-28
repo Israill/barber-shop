@@ -60,9 +60,12 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <a className="header_btn btn theme-element" href="#">
+        <Link href={'/contacts'}><a className="mx-10 header_btn btn theme-element">
           Записаться
-        </a>
+        </a></Link>
+        <Link href={'/login'}><a className="header_btn btn theme-element">
+          Личный кабинет
+        </a></Link>
         <span className="header_trigger d-inline-flex d-lg-none flex-column justify-content-between">
           <span className="line"></span>
           <span className="line"></span>
