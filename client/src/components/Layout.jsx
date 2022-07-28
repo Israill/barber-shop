@@ -1,8 +1,16 @@
 import Head from 'next/head';
 import Footer from './Footer';
 import Navbar from './Navbar';
+import { useEffect } from 'react'
+import { useDispatch } from "react-redux";
+import { fetchAuthMe } from "../redux/slice/auth";
 
 const Layout = ({ children }) => {
+  const dispatch = useDispatch()
+
+  useEffect(() => {
+    dispatch(fetchAuthMe())
+  }, [])
   return (
     <>
       <Head>

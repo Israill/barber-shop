@@ -1,4 +1,19 @@
+import { useRouter } from 'next/router'
+import { selectIsAuth } from "../redux/slice/auth";
+import { useSelector } from 'react-redux'
+import { useEffect } from 'react'
+
 const Admin = () => {
+  const isAuth = useSelector(selectIsAuth)
+  const user = useSelector((state) => state.auth)
+  const router = useRouter()
+
+  useEffect(() => {
+    if (!isAuth && user === false) {
+      router.push('/error')
+    }
+  }, [])
+
   return(
     <section>
       <div className="pt-36 text-center">
