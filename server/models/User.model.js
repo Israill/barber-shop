@@ -1,5 +1,9 @@
 import mongoose from 'mongoose';
 
+// Доступ в админ панель
+// admin@barber.ru
+// eddycuts95
+
 const UserSchema = new mongoose.Schema(
   {
     fullName: {
@@ -14,6 +18,10 @@ const UserSchema = new mongoose.Schema(
     passwordHash: {
       type: String,
       required: true,
+    },
+    isAdmin: {
+      type: Boolean,
+      default: false
     },
   },
   {
