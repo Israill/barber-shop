@@ -1,15 +1,10 @@
 import Cropservice from '@/components/Cropservice';
 import Stats from '@/components/Stats';
-import { Navigation, Pagination, A11y, Autoplay } from 'swiper';
-
+import {  Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import 'swiper/css';
-import 'swiper/css/effect-fade';
 
 export default function Home() {
   const images = [
@@ -36,7 +31,8 @@ export default function Home() {
       <main>
         <section className="hero d-flex h-full">
         <Swiper
-          modules={[Navigation, Pagination, A11y, Autoplay]}
+          modules={[ Autoplay]}
+          navigation={false}
           spaceBetween={0}
           slidesPerView={1}
           speed={1000}
