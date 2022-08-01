@@ -41,10 +41,6 @@ const Shop = () => {
     }
   };
 
-  //products.map((item) => {
-
-  //});
-
   return (
     <section>
       <div className="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8 pt-32">
