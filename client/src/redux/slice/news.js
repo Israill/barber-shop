@@ -1,8 +1,11 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from '../../pages/api/axios';
 
-export const addNews = createAsyncThunk('add/news', async (params) => {
-  const { data } = await axios.post('/posts', params);
+export const addNews = createAsyncThunk('add/news', async ({ values, image }) => {
+  const { data } = await axios.post('/posts', {
+    ...values, 
+    ImageUrl: image
+  });
 
   return data;
 });
@@ -15,7 +18,7 @@ export const removeNews = createAsyncThunk('remove/news', async (id) => {
 
 export const fetchNews = createAsyncThunk('fetch/news', async () => {
   const { data } = await axios.get('/posts');
-console.log("AXIOS", data);
+
   return data;
 });
 

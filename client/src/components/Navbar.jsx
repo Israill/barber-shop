@@ -2,11 +2,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import { selectIsAuth } from "../redux/slice/auth";
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 const Navbar = () => {
   const isAuth = useSelector(selectIsAuth)
-  const dispatch = useDispatch()
   const router = useRouter()
 
   useEffect(() => {
