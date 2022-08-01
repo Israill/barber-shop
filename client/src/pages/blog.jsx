@@ -6,7 +6,6 @@ import BlogPost from '@/components/BlogPost';
 
 const Blog = () => {
   const news = useSelector((state) => state.news.news);
-  const loading = useSelector((state) => state.loading);
 
   const dispatch = useDispatch();
 
@@ -23,7 +22,7 @@ const Blog = () => {
               НАШИ НОВОСТИ
             </h2>
             <span
-              className="feed_header-subtitle section_header-subtitle"
+              className="feed_header-subtitle section_header-subtitle" 
               data-aos="fade-right"
               data-aos-delay="50"
               data-aos-once="false"
@@ -31,14 +30,14 @@ const Blog = () => {
               Последние посты
             </span>
           </div>
-          <ul className="feed_posts d-md-flex flex-wrap">
+          <ul className="feed_posts d-md-flex flex-wrap gap-3 mt-3 flex">
             {news.map((news) => {
               return <BlogPost news={news} />;
             })}
           </ul>
-          <div className="pagination feed_pagination d-flex justify-content-center align-items-center">
+          <div className="pagination feed_pagination d-flex justify-content-center align-items-center mt-3">
             <a className="pagination_control btn btn--revert theme-element" href="#">
-              Back
+              Назад
             </a>
             <ul className="pagination_pages d-flex">
               <li className="pagination_pages-page">
@@ -58,7 +57,7 @@ const Blog = () => {
               </li>
             </ul>
             <a className="pagination_control btn btn--revert theme-element" href="#">
-              Next
+              Вперед
             </a>
           </div>
         </div>

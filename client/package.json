@@ -11,6 +11,7 @@
     "prettier": "prettier --config .prettierrc \"src/**/*.{js,jsx,ts,tsx}\" --write"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@reduxjs/toolkit": "^1.8.3",
     "aos": "^2.3.4",
     "axios": "^0.27.2",
@@ -19,8 +20,10 @@
     "number-counter": "^1.0.3",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.7",
     "react-hook-form": "^7.33.1",
     "react-redux": "^8.0.2",
+    "react-upload-gallery": "^0.4.1",
     "sass": "^1.53.0",
     "swiper": "^8.3.2"
   },

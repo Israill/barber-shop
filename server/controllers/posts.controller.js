@@ -6,7 +6,6 @@ export default {
       const posts = await PostModel.find();
       res.json(posts);
     } catch (err) {
-      console.log(err);
       res.status(500).json({
         error: "Не удалось получить статьи",
       });
@@ -82,12 +81,12 @@ export default {
 
   create: async (req, res) => {
     try {
-      const { title, text, imageUrl } = req.body;
+      const { title, text, ImageUrl } = req.body;
 
       const doc = await PostModel.create({
         title: title,
         text: text,
-        ImageUrl: imageUrl,
+        ImageUrl: ImageUrl,
       });
 
       const post = await doc.save();
