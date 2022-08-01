@@ -2,6 +2,7 @@ const Product = () => {
   return(
     <div
     className="relative block main-color"
+    data-aos="zoom-in"
   >
     <button
       type="button"

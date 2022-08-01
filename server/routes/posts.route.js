@@ -3,7 +3,6 @@ import Router from "express";
 import PostController from "../controllers/posts.controller.js";
 import { checkAuth, handleValidationErrors } from "../utils/index.js";
 
-
 const router = new Router();
 
 router.get("/posts", PostController.getAll);

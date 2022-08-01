@@ -25,6 +25,10 @@
   background: #202020;
 }
 
+.blog_width{
+  width: 29% !important;
+}
+
 .icon-close:before {
     content: "\e909"
 }

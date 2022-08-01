@@ -30,17 +30,12 @@ const Login = () => {
     }
 
   }
-  console.log(isAuth);
+
   useEffect(() => {
     if (isAuth) {
       router.push('/')
     }
   }, [])
-
-  const isEmail = (email) => {
-    return /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}/i.test(email);
-  };
-  
 
   return (
     <div className="container mx-auto p-4">
@@ -52,7 +47,7 @@ const Login = () => {
             name="email"
             className="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent text-sm text-black"
             placeholder="Электронный адрес"
-            {...register('email', { required: true, validate: input => isEmail(input) })}
+            {...register('email', { required: true,  pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/ })}
           />
          {errors.email && "Введите корректную электронную почту"}
 
