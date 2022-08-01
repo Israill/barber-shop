@@ -2,7 +2,6 @@ import Product from '@/components/Product';
 import { fetchProducts } from '@/redux/slice/products';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import orderBy from 'lodash/orderBy';
 
 const Shop = () => {
   const products = useSelector((state) => state.products.products);
